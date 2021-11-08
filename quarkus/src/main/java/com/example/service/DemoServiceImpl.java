@@ -20,7 +20,7 @@ public class DemoServiceImpl implements DemoService{
 		e.setId(0L);
 		e.setCode("MyCode");
 		repo.save(e);
-		System.out.println("Code :" + repo.findAll().get(0).getCode());  // <-- Here got problem
+		System.out.println("Code :" + repo.findAll().get(0).getCode()); 
     }
     
 }
