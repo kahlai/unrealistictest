@@ -54,7 +54,7 @@ sys	0m3.458s
 ```
 cd quarkus
 mvn clean package
-time java -jar ./target/quarkus-
+time java -jar ./target/quarkus-app/quarkus-run.jar
 ```
 
 ### Example run command
