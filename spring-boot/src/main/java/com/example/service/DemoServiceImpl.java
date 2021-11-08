@@ -12,6 +12,7 @@ public class DemoServiceImpl implements DemoService{
     @Autowired
     Entity0001Repository repo;
 
+    @Transactional
     public void runDemo(){
         Entity0001 e = new Entity0001();
 		e.setId(0L);
