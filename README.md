@@ -8,7 +8,7 @@ This repository contains 2 projects, both written in java.
 
 One using spring framework, another using quarkus framework.
 
-Both contains 2000 Entities and 2000 Repository (implements org.springframework.data.jpa.repository.JpaRepository) 
+Each contains 2000 Entities and 2000 Repository (implements org.springframework.data.jpa.repository.JpaRepository) 
 
 Both application can run as standalone, use h2 as in memory database and terminate as soon as it finish running.
 
